@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.student-card {
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.student-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.search-container {
+  margin-bottom: 30px;
+}
+
+.btn-action {
+  margin: 0 5px;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.student-details {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.detail-row {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.detail-value {
+  color: #6c757d;
+}
+
+.loading-spinner {
+  text-align: center;
+  padding: 50px;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+  padding: 20px;
+}
+
